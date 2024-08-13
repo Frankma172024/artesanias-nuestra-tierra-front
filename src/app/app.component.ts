@@ -7,6 +7,8 @@ import { ContactComponent } from '../components/contact/contact.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from '../pages/login/login.component';
+import { ForgotPasswordComponent } from '../components/forgot-password/forgot-password.component';
+import { RegisterComponent } from '../components/register/register.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +21,10 @@ import { LoginComponent } from '../pages/login/login.component';
     HomeComponent,
     ProductsComponent,
     ContactComponent,
-    FooterComponent],
+    FooterComponent,
+    ForgotPasswordComponent,
+    RegisterComponent  
+  ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

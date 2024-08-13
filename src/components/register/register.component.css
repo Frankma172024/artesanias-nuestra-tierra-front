@@ -1,7 +1,7 @@
-.add-product-container {
+.register-container {
     font-family: 'Berton', sans-serif; 
-    max-width: 600px;
-    margin: 50px auto;
+    max-width: 400px;
+    margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -24,9 +24,8 @@
   }
   
   input[type="text"],
-  input[type="number"],
-  input[type="url"],
-  textarea {
+  input[type="email"],
+  input[type="password"] {
     width: 100%;
     padding: 8px;
     margin: 0;
