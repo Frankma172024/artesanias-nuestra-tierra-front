@@ -1,0 +1,113 @@
+.homepage {
+    font-family: 'Berton', sans-serif; /* Asegúrate de que Berton esté importado */
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #2f919d; /* Fondo en azul verde */
+    border-bottom: 4px solid #fea626; /* Borde inferior en amarillo */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .logo a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fea626; /* Color del texto en amarillo */
+    text-decoration: none;
+  }
+  
+  nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #da3742; /* Color de los enlaces en rojo */
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #fea626; /* Color del enlace en amarillo al pasar el mouse */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Centra el texto dentro del elemento */
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #2f919d; /* Color en azul verde */
+  }
+  
+  .hero p {
+    text-align: justify;
+    justify-content: center;
+    width: 80%;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #fea626; /* Color del botón en amarillo */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #f8c04b; /* Color de fondo más claro al pasar el mouse */
+  }
+  
+  .featured {
+    padding: 20px;
+  }
+  
+  .featured h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #2f919d; /* Color en azul verde */
+  }
+  
+  .featured-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .item p{
+    text-align: justify;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 40%;
+  }
+
+  

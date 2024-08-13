@@ -1,0 +1,15 @@
+<section class="product-list">
+    <h2>Productos</h2>
+    <div class="product-cards">
+      <div class="product-card" *ngFor="let product of products">
+        <div class="product-images">
+          <img [src]="product.images[0]" alt="{{product.title}}" class="product-image-main">
+        </div>
+        <div class="product-info">
+          <h3 class="product-name">{{product.title}}</h3>
+          <p class="product-description">{{product.description}}</p>
+          <p class="product-price">$ {{product.price.toFixed(2)}}</p>
+        </div>
+      </div>
+    </div>
+  </section>

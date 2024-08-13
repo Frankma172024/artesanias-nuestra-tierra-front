@@ -1,0 +1,12 @@
+  
+  footer {
+    font-family: 'Berton', sans-serif; /* Asegúrate de que Berton esté importado */
+    padding: 10px;
+    text-align: center;
+    background-color: #2f919d;
+    color: #fff;
+  }
+
+  footer img{
+    height: 100px;
+  }

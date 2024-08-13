@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #2f919d; 
+    border-bottom: 4px solid #fea626; /* Borde inferior en amarillo */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 80px;
+    margin-right: 50px;
+  }
+  
+  .logo a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff; 
+    text-decoration: none;
+    font-family: 'Berton', sans-serif; 
+  }
+  
+  nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff; 
+    font-family: 'Berton', sans-serif; 
+    font-weight: 100px;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+    color: #fea626; /* Color del enlace en amarillo al pasar el mouse */
+  }
+  
